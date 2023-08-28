@@ -1,0 +1,23 @@
+.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.completed .task-text {
+  color: #999;
+}
+
+.completed input[type="checkbox"] {
+  opacity: 0.5;
+}
+
+.task-item button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.task-item button:hover {
+  color: #e74c3c;
+}
